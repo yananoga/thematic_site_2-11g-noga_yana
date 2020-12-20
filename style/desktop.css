@@ -1,0 +1,318 @@
+body{
+    background-color: #d8b4e2;
+    margin: 0px;
+}
+
+.logo{
+    width: 54px;
+    height: 54px;
+    background-image: url(../pictures/logo.png);
+    background-size: contain;
+
+}
+.header{
+    color: #55286f;
+    font-size: 32px;
+    font-family: Rockwell;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    padding: 0px 25px 0px 0px;
+}
+.header2{
+    color: #55286f;
+    font-size: 24px;
+    font-family: Rockwell;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    padding: 0px 25px 0px 0px;
+}
+nav {
+    width: calc(100% - 50px);
+    position: relative;
+    padding: 25px 25px 25px 25px;
+
+    background-color: #bc96e6;
+    z-index: 9;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+.menu {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    padding: 0px 25px 0px 0px;
+}
+.burger {
+    display: none;
+}
+
+input[type="checkbox"]  {
+    display: none;
+}
+
+.menu-section {
+    font-family: Rockwell;
+    color: #55286f;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
+}
+.album{
+
+    margin: 30px 25px 10px 50px;
+    width: 300px;
+    border-radius: 20px;
+    background-color:  #bc96e6;
+    transition: all 0.5s;
+    display: block;
+    vertical-align: top;
+    float: left;
+
+
+}
+.album:hover{
+    box-shadow: 0px 0px 150px #ae759f;
+    transform: scale(1.1);
+}
+.cover{
+    height: 300px;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+    background-position: center;
+}
+.info1{
+    background-color: #bc96e6;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+    font-family: Rockwell;
+}
+.title{
+    font-size: 20px;
+    color: #55286f;
+}
+.description{
+    font-size: 16px;
+    color: #55286f;
+    margin: 0px 0px 10px 0px;
+}
+.text{
+    font-size: 25px;
+    color: #55286f;
+    width: auto;
+    font-family: Rockwell;
+}
+.info2
+{
+    font-size: 16px;
+    color: #55286f;
+    width: auto;
+    font-family: Rockwell;
+    margin: 35px 10px 0% 40px;
+    position: relative;
+    float: left;
+    width:50%;
+
+}
+.hr{
+    width:50%;
+    border: solid 1px #55286f;
+    margin: 0px 10px 1% 40px;
+    float: left;
+}
+.details
+{
+    margin: 0px 10px 30% 40px;
+    float: left;
+    font-family: Rockwell;
+    font-size: 16px;
+    color: #55286f;
+    position: relative;
+    width: 50%;
+}
+.album1{
+    margin: 5px 0px 10px 0px;
+    width: 300px;
+    border-radius: 20px;
+    background-color:  #bc96e6;
+    transition: all 0.5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.cover1{
+    height: 300px;
+    background-size: cover;
+    border-radius: 25px;
+    background-position: center;
+}
+.info3
+{
+    font-size: 16px;
+    color: #55286f;
+    width: auto;
+    font-family: Rockwell;
+    margin: 35px 10px 4% 40px;
+    text-align: center;
+    float: left;
+    width:100%;
+    position: absolute;
+    top:20%;
+    left:46%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.about{
+    font-size: 16px;
+    color: #55286f;
+    width: auto;
+    font-family: Rockwell;
+    margin: 530px 40px 3% 40px;
+    position: relative;
+    float: left;
+    width:95%;
+    top: 100%;
+    left: 46%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+.listen
+{
+    background-color: #bc96e6;
+    background-size: cover;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #55286f;
+    width: 60%;
+    height: 50px;
+    font-family: Rockwell;
+    margin: 1085px 10px 10% 40px;
+    text-align: center;
+    line-height: 2.85em;
+    float: left;
+    position: absolute;
+    top:20%;
+    left:46%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+.icons{
+    margin: 1205px 10px 10% 40px;
+    text-align: center;
+    float: left;
+    width:100%;
+    position: absolute;
+    top:20%;
+    left:46%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.icon{
+    margin: 10px 10px 30px 10px;
+    padding: 10px 10px 10px 10px;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    background-size: contain;
+}
+.video{
+    margin: 740px 10px 10px 10px;
+   text-align: center;
+}
+.watch{
+    background-color: #bc96e6;
+    background-size: cover;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #55286f;
+    width: auto;
+    font-family: Rockwell;
+    margin: 630px 10px 5px 40px;
+    text-align: center;
+    line-height: 2.85em;
+    float: left;
+    width:60%;
+    height: 50px;
+    position: absolute;
+    top:20%;
+    left:46%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.find{
+    background-color: #bc96e6;
+    background-size: cover;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #55286f;
+    width: 60%;
+    height: 50px;
+    font-family: Rockwell;
+    margin: 1280px 10px 10% 40px;
+    text-align: center;
+    line-height: 2.85em;
+    float: left;
+    position: absolute;
+    top:20%;
+    left:46%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.map{
+    margin: 320px 10px 10px 10px;
+    text-align: center;
+}
+.rating
+{
+    font-family: Rockwell;
+    font-size: 20px;
+    color: #55286f;
+    margin: 40px 10px 10px 10px;
+    text-align: center;
+}
+
+.meter {
+    margin: 35px 40px 20px 35px ;
+    height: 30px;
+    position: relative;
+    background: #55286f;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(207, 133, 239);
+    background-image: linear-gradient(to right, white 37%, #bc96e6 69%);
+    position: relative;
+    overflow: hidden;
+    font-family: Rockwell;
+    line-height: 2.55em;
+    color: #55286f;
+    text-align: right;
+}
+.name
+{
+    margin: 40px 30px 0px 50px;
+    font-size: 20px;
+    color: #55286f;
+    font-family: Rockwell;
+}
+.meter:hover{
+    box-shadow: 0px 0px 150px #ae759f;
+    transform: scale(1.1);
+}
+
+
